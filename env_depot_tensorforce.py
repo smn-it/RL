@@ -51,7 +51,7 @@ class depot_env(object):
         self.reward_sell = 0.01   # Prozent
         
         self.aktie = aktie
-        self.window_size = 60
+        self.window_size = 10
         self.time_max = len(aktie.close_price_orig) - 1
         self.reset()
         
